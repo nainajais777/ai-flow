@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+AI Flow Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple MERN stack application that lets users type a prompt, run it through an AI, and visualize the input and output in a flow chart. The app also allows saving prompts and AI responses to MongoDB.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+React Flow Visualization: Connect input and output nodes with an edge.
 
-### `npm start`
+AI Integration: Sends user prompts to OpenRouter API and displays AI responses.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+MongoDB Storage: Save prompts and answers for later reference.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Run & Save: Simple buttons to execute the flow and persist data.
 
-### `npm test`
+Responsive UI: Works on desktop and mobile screens.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tech Stack
 
-### `npm run build`
+Frontend: React, React Flow, CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Backend: Node.js, Express.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Database: MongoDB
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+AI API: OpenRouter (Free Models: Mistral 7B Instruct, Gemini 2.0 Lite)
 
-### `npm run eject`
+Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/nainahjais777/ai-flow-assistant.git
+cd ai-flow-assistant
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Frontend
+cd frontend
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Backend
+cd backend
+npm install
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Create .env file in backend
 
-### Analyzing the Bundle Size
+PORT=5000
+MONGO_URI=<your-mongodb-uri>
+OPENROUTER_API_KEY=<your-openrouter-api-key>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Run the app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Backend
+cd backend
+npm run dev
 
-### Advanced Configuration
+# Frontend
+cd frontend
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Open in browser: http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Usage
 
-### `npm run build` fails to minify
+Type a prompt in the Input Prompt node.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Click Run Flow to get the AI response in the AI Response node.
+
+Click Save to DB to store the prompt and response in MongoDB.
+
+Project Structure
+frontend/
+  ├─ src/
+  │  ├─ components/
+  │  │  ├─ Header.js
+  │  │  └─ Canvas.js
+  │  └─ App.js
+backend/
+  ├─ models/
+  │  └─ Prompt.js
+  ├─ db.js
+  └─ server.js
+
