@@ -55,7 +55,7 @@ Run the app
 
 # Backend
 cd backend
-npm run dev
+nodemon server.js
 
 # Frontend
 cd frontend
@@ -85,3 +85,14 @@ backend/
   ├─ db.js
   └─ server.js
 
+# Screenshots
+
+Input Prompt and AI Response nodes visualized using React Flow:
+
+[1](frontend/src/screenshots/ai-flow_1.png)
+[2](frontend/src/screenshots/ai-flow_2.png)
+[3](frontend/src/screenshots/ai-flow_3.png)
+
+# Data Folder
+
+All AI prompts and responses are stored in `data/ai-flow.prompts.json`.

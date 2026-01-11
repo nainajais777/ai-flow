@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "69624534faa30cb78934e8aa"
+  },
+  "prompt": "What is the name of the PM of india?",
+  "answer": "The Prime Minister of India is Narendra Modi.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6963656141a70e10e6d71d6d"
+  },
+  "prompt": "what is the name of india in sanskrit?",
+  "answer": "The name of India in Sanskrit is \"Bhāratam\" (भारतम्). This name is derived from the ancient king Bharata, who is mentioned in the Mahabharata and other Hindu texts. The term \"Bhāratam\" is often used to refer to the entire Indian subcontinent. The modern name \"India\" is believed to have originated from the Indus River, which was known as the \"Sindhu\" in Sanskrit. The ancient Greeks and Persians referred to the region as \"Indos\" and \"Hindū,\" respectively, which eventually evolved into \"India.\"",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6963b3bcbd714662daa3b03f"
+  },
+  "prompt": "List interesting fact about India?",
+  "answer": "India is the seventh-largest country by area and the most populous democracy in the world. It is also home to a rich cultural heritage, with diverse languages, religions, and traditions. Some interesting facts about India include: 1. **Diverse Languages**: India has 22 officially recognized languages, with Hindi and English being the most widely spoken. However, there are over 780 languages spoken across the country. 2. **Ancient Civilization**: The Indus Valley Civilization, one of the world's oldest, flourished in what is now modern-day India around 3300–1300 BCE. 3. **Birthplace of Major Religions**: India is the birthplace of Hinduism, Buddhism, Jainism, and Sikhism, and it has significantly influenced other religions like Islam and Christianity. 4. **Rich Biodiversity**: India is home to a wide variety of wildlife, including tigers, elephants, and the Indian rhinoceros. It also has diverse ecosystems, from the Himalayas to the Thar Desert. 5. **Space Exploration**: India's space agency, ISRO, has achieved significant milestones, including the Mars Orbiter Mission (Mangalyaan) and the Chandrayaan missions to the Moon. 6. **Festivals and Celebrations**: India is known for its vibrant festivals, such as Diwali, Holi, Eid, and Durga Puja, which reflect its cultural diversity. 7. **Technological Hub**: Cities like Bangalore, Hyderabad, and Pune are major IT hubs, contributing significantly to the global tech industry. 8. **Cuisine**: Indian cuisine is renowned worldwide for its spices, flavors, and variety, with each region offering unique dishes. 9. **Demographic Diversity**: India is the most populous country in the world, with over 1.4 billion people, making it a melting pot of cultures and traditions. 10. **Historical Monuments**: India is home to iconic landmarks like the Taj Mahal, Qutub Minar, and the Red Fort, which attract millions of tourists every year. These facts highlight the rich tapestry of India's history, culture, and achievements.",
+  "__v": 0
+}]
